@@ -3,7 +3,8 @@
     <b-container>
     <h1>{{ title }}</h1>
     <!-- <h2>{{ horas }}</h2> -->
-  
+    <!-- Comentario maneiro do amiginho -->
+    <p>Comentario maneiro do amiginho</p>
 
     <h3 v-if ="horas >= 9 && horas < 17" id="aberta">ABERTA</h3>
     <h3 v-else-if="horas >= 17 && horas < 18" id="proxima-fechar">PRÓXIMA A FECHAR</h3>
